@@ -1,10 +1,7 @@
-- 👋 Hi, I’m @darkwizard3801
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+str = input("Enter a string: ")
 
-<!---
-darkwizard3801/darkwizard3801 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# counter variable to count the character in a string
+counter = 0
+for s in str:
+      counter = counter+1
+print("Length of the input string is:", counter)
